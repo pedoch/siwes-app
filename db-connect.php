@@ -1,8 +1,8 @@
 <?php   
-   $dbhost = 'sql104.epizy.com';
-   $dbuser = 'epiz_28296413';
-   $dbpass = '9NPT3kI68V';
+   $dbhost = 'sql4.freemysqlhosting.net';
+   $dbuser = 'sql4403087';
+   $dbpass = 'BkBHn8Pbly';
    
    $conn= mysqli_connect("$dbhost","$dbuser","$dbpass") or die ("could not connect to mysql");
-   mysqli_select_db($conn, "epiz_28296413_bluefrog");
+   mysqli_select_db($conn, "sql4403087");
 ?>
